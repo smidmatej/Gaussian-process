@@ -49,10 +49,10 @@ class GPR:
         """
         The whole contructor is in this method. This method is called when contructing this class and after self.fit()
         
-        :param: z_train: np.array of n samples with dimension d. Input samples for regression
-        :param: y_train: np.array of n samples with dimension d. Output samples for regression
+        :param: z_train: np.ndarray of n samples with dimension d. Input samples for regression
+        :param: y_train: np.ndarray of n samples with dimension d. Output samples for regression
         :param: covariance_function: Reference to a KernelFunction
-        :param: theta: np.array of hyperparameters
+        :param: theta: np.ndarray of hyperparameters
         """
         
         if z_train is None or y_train is None:
